@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5316F901EB8F01800549B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F8F1EB8F01800549B0E /* AppDelegate.swift */; };
+		C5316F921EB8F01800549B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F911EB8F01800549B0E /* ViewController.swift */; };
+		C5316F951EB8F01800549B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5316F931EB8F01800549B0E /* Main.storyboard */; };
+		C5316F981EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5316F961EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld */; };
+		C5316F9A1EB8F01800549B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5316F991EB8F01800549B0E /* Assets.xcassets */; };
+		C5316F9D1EB8F01800549B0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5316F9B1EB8F01800549B0E /* LaunchScreen.storyboard */; };
+		C5316FA81EB8F01800549B0E /* hali_ya_hewaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316FA71EB8F01800549B0E /* hali_ya_hewaTests.swift */; };
+		C5316FB31EB8F01800549B0E /* hali_ya_hewaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316FB21EB8F01800549B0E /* hali_ya_hewaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5316FA41EB8F01800549B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5316F841EB8F01800549B0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5316F8B1EB8F01800549B0E;
+			remoteInfo = "hali-ya-hewa";
+		};
+		C5316FAF1EB8F01800549B0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5316F841EB8F01800549B0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5316F8B1EB8F01800549B0E;
+			remoteInfo = "hali-ya-hewa";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5316F8C1EB8F01800549B0E /* hali-ya-hewa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hali-ya-hewa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5316F8F1EB8F01800549B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5316F911EB8F01800549B0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5316F941EB8F01800549B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5316F971EB8F01800549B0E /* hali_ya_hewa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hali_ya_hewa.xcdatamodel; sourceTree = "<group>"; };
+		C5316F991EB8F01800549B0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5316F9C1EB8F01800549B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5316F9E1EB8F01800549B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5316FA31EB8F01800549B0E /* hali-ya-hewaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hali-ya-hewaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5316FA71EB8F01800549B0E /* hali_ya_hewaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hali_ya_hewaTests.swift; sourceTree = "<group>"; };
+		C5316FA91EB8F01800549B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5316FAE1EB8F01800549B0E /* hali-ya-hewaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hali-ya-hewaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5316FB21EB8F01800549B0E /* hali_ya_hewaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hali_ya_hewaUITests.swift; sourceTree = "<group>"; };
+		C5316FB41EB8F01800549B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5316F891EB8F01800549B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5316FA01EB8F01800549B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5316FAB1EB8F01800549B0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5316F831EB8F01800549B0E = {
+			isa = PBXGroup;
+			children = (
+				C5316F8E1EB8F01800549B0E /* hali-ya-hewa */,
+				C5316FA61EB8F01800549B0E /* hali-ya-hewaTests */,
+				C5316FB11EB8F01800549B0E /* hali-ya-hewaUITests */,
+				C5316F8D1EB8F01800549B0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5316F8D1EB8F01800549B0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5316F8C1EB8F01800549B0E /* hali-ya-hewa.app */,
+				C5316FA31EB8F01800549B0E /* hali-ya-hewaTests.xctest */,
+				C5316FAE1EB8F01800549B0E /* hali-ya-hewaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5316F8E1EB8F01800549B0E /* hali-ya-hewa */ = {
+			isa = PBXGroup;
+			children = (
+				C5316F8F1EB8F01800549B0E /* AppDelegate.swift */,
+				C5316F911EB8F01800549B0E /* ViewController.swift */,
+				C5316F931EB8F01800549B0E /* Main.storyboard */,
+				C5316F991EB8F01800549B0E /* Assets.xcassets */,
+				C5316F9B1EB8F01800549B0E /* LaunchScreen.storyboard */,
+				C5316F9E1EB8F01800549B0E /* Info.plist */,
+				C5316F961EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld */,
+			);
+			path = "hali-ya-hewa";
+			sourceTree = "<group>";
+		};
+		C5316FA61EB8F01800549B0E /* hali-ya-hewaTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5316FA71EB8F01800549B0E /* hali_ya_hewaTests.swift */,
+				C5316FA91EB8F01800549B0E /* Info.plist */,
+			);
+			path = "hali-ya-hewaTests";
+			sourceTree = "<group>";
+		};
+		C5316FB11EB8F01800549B0E /* hali-ya-hewaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5316FB21EB8F01800549B0E /* hali_ya_hewaUITests.swift */,
+				C5316FB41EB8F01800549B0E /* Info.plist */,
+			);
+			path = "hali-ya-hewaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5316F8B1EB8F01800549B0E /* hali-ya-hewa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5316FB71EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewa" */;
+			buildPhases = (
+				C5316F881EB8F01800549B0E /* Sources */,
+				C5316F891EB8F01800549B0E /* Frameworks */,
+				C5316F8A1EB8F01800549B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hali-ya-hewa";
+			productName = "hali-ya-hewa";
+			productReference = C5316F8C1EB8F01800549B0E /* hali-ya-hewa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5316FA21EB8F01800549B0E /* hali-ya-hewaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5316FBA1EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewaTests" */;
+			buildPhases = (
+				C5316F9F1EB8F01800549B0E /* Sources */,
+				C5316FA01EB8F01800549B0E /* Frameworks */,
+				C5316FA11EB8F01800549B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5316FA51EB8F01800549B0E /* PBXTargetDependency */,
+			);
+			name = "hali-ya-hewaTests";
+			productName = "hali-ya-hewaTests";
+			productReference = C5316FA31EB8F01800549B0E /* hali-ya-hewaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5316FAD1EB8F01800549B0E /* hali-ya-hewaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5316FBD1EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewaUITests" */;
+			buildPhases = (
+				C5316FAA1EB8F01800549B0E /* Sources */,
+				C5316FAB1EB8F01800549B0E /* Frameworks */,
+				C5316FAC1EB8F01800549B0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5316FB01EB8F01800549B0E /* PBXTargetDependency */,
+			);
+			name = "hali-ya-hewaUITests";
+			productName = "hali-ya-hewaUITests";
+			productReference = C5316FAE1EB8F01800549B0E /* hali-ya-hewaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5316F841EB8F01800549B0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Munene Kaumbutho";
+				TargetAttributes = {
+					C5316F8B1EB8F01800549B0E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					C5316FA21EB8F01800549B0E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5316F8B1EB8F01800549B0E;
+					};
+					C5316FAD1EB8F01800549B0E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C5316F8B1EB8F01800549B0E;
+					};
+				};
+			};
+			buildConfigurationList = C5316F871EB8F01800549B0E /* Build configuration list for PBXProject "hali-ya-hewa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5316F831EB8F01800549B0E;
+			productRefGroup = C5316F8D1EB8F01800549B0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5316F8B1EB8F01800549B0E /* hali-ya-hewa */,
+				C5316FA21EB8F01800549B0E /* hali-ya-hewaTests */,
+				C5316FAD1EB8F01800549B0E /* hali-ya-hewaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5316F8A1EB8F01800549B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5316F9D1EB8F01800549B0E /* LaunchScreen.storyboard in Resources */,
+				C5316F9A1EB8F01800549B0E /* Assets.xcassets in Resources */,
+				C5316F951EB8F01800549B0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5316FA11EB8F01800549B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5316FAC1EB8F01800549B0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5316F881EB8F01800549B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5316F921EB8F01800549B0E /* ViewController.swift in Sources */,
+				C5316F981EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld in Sources */,
+				C5316F901EB8F01800549B0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5316F9F1EB8F01800549B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5316FA81EB8F01800549B0E /* hali_ya_hewaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5316FAA1EB8F01800549B0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5316FB31EB8F01800549B0E /* hali_ya_hewaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5316FA51EB8F01800549B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5316F8B1EB8F01800549B0E /* hali-ya-hewa */;
+			targetProxy = C5316FA41EB8F01800549B0E /* PBXContainerItemProxy */;
+		};
+		C5316FB01EB8F01800549B0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5316F8B1EB8F01800549B0E /* hali-ya-hewa */;
+			targetProxy = C5316FAF1EB8F01800549B0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5316F931EB8F01800549B0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5316F941EB8F01800549B0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5316F9B1EB8F01800549B0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5316F9C1EB8F01800549B0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5316FB51EB8F01800549B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5316FB61EB8F01800549B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5316FB81EB8F01800549B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hali-ya-hewa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "munesh.hali-ya-hewa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C5316FB91EB8F01800549B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hali-ya-hewa/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "munesh.hali-ya-hewa";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C5316FBB1EB8F01800549B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hali-ya-hewaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "munesh.hali-ya-hewaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hali-ya-hewa.app/hali-ya-hewa";
+			};
+			name = Debug;
+		};
+		C5316FBC1EB8F01800549B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hali-ya-hewaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "munesh.hali-ya-hewaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hali-ya-hewa.app/hali-ya-hewa";
+			};
+			name = Release;
+		};
+		C5316FBE1EB8F01800549B0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "hali-ya-hewaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "munesh.hali-ya-hewaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "hali-ya-hewa";
+			};
+			name = Debug;
+		};
+		C5316FBF1EB8F01800549B0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "hali-ya-hewaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "munesh.hali-ya-hewaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "hali-ya-hewa";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5316F871EB8F01800549B0E /* Build configuration list for PBXProject "hali-ya-hewa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5316FB51EB8F01800549B0E /* Debug */,
+				C5316FB61EB8F01800549B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5316FB71EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5316FB81EB8F01800549B0E /* Debug */,
+				C5316FB91EB8F01800549B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5316FBA1EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5316FBB1EB8F01800549B0E /* Debug */,
+				C5316FBC1EB8F01800549B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5316FBD1EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5316FBE1EB8F01800549B0E /* Debug */,
+				C5316FBF1EB8F01800549B0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C5316F961EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C5316F971EB8F01800549B0E /* hali_ya_hewa.xcdatamodel */,
+			);
+			currentVersion = C5316F971EB8F01800549B0E /* hali_ya_hewa.xcdatamodel */;
+			path = hali_ya_hewa.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C5316F841EB8F01800549B0E /* Project object */;
+}
