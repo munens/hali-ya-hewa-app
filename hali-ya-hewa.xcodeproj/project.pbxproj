@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0123CBDDC74EA01E1309CD01 /* Pods_hali_ya_hewaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32122CB673152FBBF108 /* Pods_hali_ya_hewaUITests.framework */; };
+		2F4C2A5EA7EE7EDE38198BF4 /* Pods_hali_ya_hewa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA323256616566E4BC7ED62 /* Pods_hali_ya_hewa.framework */; };
+		427952C70A0B86DC848EB253 /* Pods_hali_ya_hewaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB324C045A3943ABCC24EA27 /* Pods_hali_ya_hewaTests.framework */; };
 		C5316F901EB8F01800549B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F8F1EB8F01800549B0E /* AppDelegate.swift */; };
-		C5316F921EB8F01800549B0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F911EB8F01800549B0E /* ViewController.swift */; };
+		C5316F921EB8F01800549B0E /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F911EB8F01800549B0E /* WeatherVC.swift */; };
 		C5316F951EB8F01800549B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5316F931EB8F01800549B0E /* Main.storyboard */; };
 		C5316F981EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C5316F961EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld */; };
 		C5316F9A1EB8F01800549B0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5316F991EB8F01800549B0E /* Assets.xcassets */; };
@@ -35,9 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04635BEB16934F675159ADB7 /* Pods-hali-ya-hewaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hali-ya-hewaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hali-ya-hewaTests/Pods-hali-ya-hewaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		049B4158C78BC918519F81CB /* Pods-hali-ya-hewa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hali-ya-hewa.release.xcconfig"; path = "Pods/Target Support Files/Pods-hali-ya-hewa/Pods-hali-ya-hewa.release.xcconfig"; sourceTree = "<group>"; };
+		6202B358E56F723A6C5A5A5D /* Pods-hali-ya-hewaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hali-ya-hewaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hali-ya-hewaUITests/Pods-hali-ya-hewaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E4CDD56BDFD7CE755FEE497 /* Pods-hali-ya-hewa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hali-ya-hewa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hali-ya-hewa/Pods-hali-ya-hewa.debug.xcconfig"; sourceTree = "<group>"; };
+		82C417954E81264B663ECCEE /* Pods-hali-ya-hewaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hali-ya-hewaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hali-ya-hewaUITests/Pods-hali-ya-hewaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		901266E5BA6528BF6FC53F08 /* Pods-hali-ya-hewaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hali-ya-hewaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hali-ya-hewaTests/Pods-hali-ya-hewaTests.release.xcconfig"; sourceTree = "<group>"; };
+		BEA323256616566E4BC7ED62 /* Pods_hali_ya_hewa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hali_ya_hewa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5316F8C1EB8F01800549B0E /* hali-ya-hewa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hali-ya-hewa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5316F8F1EB8F01800549B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5316F911EB8F01800549B0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5316F911EB8F01800549B0E /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		C5316F941EB8F01800549B0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5316F971EB8F01800549B0E /* hali_ya_hewa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hali_ya_hewa.xcdatamodel; sourceTree = "<group>"; };
 		C5316F991EB8F01800549B0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +59,8 @@
 		C5316FAE1EB8F01800549B0E /* hali-ya-hewaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hali-ya-hewaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5316FB21EB8F01800549B0E /* hali_ya_hewaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hali_ya_hewaUITests.swift; sourceTree = "<group>"; };
 		C5316FB41EB8F01800549B0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D92D32122CB673152FBBF108 /* Pods_hali_ya_hewaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hali_ya_hewaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB324C045A3943ABCC24EA27 /* Pods_hali_ya_hewaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hali_ya_hewaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4C2A5EA7EE7EDE38198BF4 /* Pods_hali_ya_hewa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				427952C70A0B86DC848EB253 /* Pods_hali_ya_hewaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0123CBDDC74EA01E1309CD01 /* Pods_hali_ya_hewaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1620D1644E58D4E4A3A91791 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEA323256616566E4BC7ED62 /* Pods_hali_ya_hewa.framework */,
+				DB324C045A3943ABCC24EA27 /* Pods_hali_ya_hewaTests.framework */,
+				D92D32122CB673152FBBF108 /* Pods_hali_ya_hewaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4884B5DF3AEA051D5D6A276B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E4CDD56BDFD7CE755FEE497 /* Pods-hali-ya-hewa.debug.xcconfig */,
+				049B4158C78BC918519F81CB /* Pods-hali-ya-hewa.release.xcconfig */,
+				04635BEB16934F675159ADB7 /* Pods-hali-ya-hewaTests.debug.xcconfig */,
+				901266E5BA6528BF6FC53F08 /* Pods-hali-ya-hewaTests.release.xcconfig */,
+				82C417954E81264B663ECCEE /* Pods-hali-ya-hewaUITests.debug.xcconfig */,
+				6202B358E56F723A6C5A5A5D /* Pods-hali-ya-hewaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C5316F831EB8F01800549B0E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				C5316FA61EB8F01800549B0E /* hali-ya-hewaTests */,
 				C5316FB11EB8F01800549B0E /* hali-ya-hewaUITests */,
 				C5316F8D1EB8F01800549B0E /* Products */,
+				4884B5DF3AEA051D5D6A276B /* Pods */,
+				1620D1644E58D4E4A3A91791 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				C5316F8F1EB8F01800549B0E /* AppDelegate.swift */,
-				C5316F911EB8F01800549B0E /* ViewController.swift */,
+				C5316F911EB8F01800549B0E /* WeatherVC.swift */,
 				C5316F931EB8F01800549B0E /* Main.storyboard */,
 				C5316F991EB8F01800549B0E /* Assets.xcassets */,
 				C5316F9B1EB8F01800549B0E /* LaunchScreen.storyboard */,
@@ -135,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5316FB71EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewa" */;
 			buildPhases = (
+				39EDA6FA01C46AB694B6AAC5 /* [CP] Check Pods Manifest.lock */,
 				C5316F881EB8F01800549B0E /* Sources */,
 				C5316F891EB8F01800549B0E /* Frameworks */,
 				C5316F8A1EB8F01800549B0E /* Resources */,
+				2EB9CB1937961B7236138001 /* [CP] Embed Pods Frameworks */,
+				A7360D983E6DB010D3F7B2B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5316FBA1EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewaTests" */;
 			buildPhases = (
+				8416749010E65818F320A08F /* [CP] Check Pods Manifest.lock */,
 				C5316F9F1EB8F01800549B0E /* Sources */,
 				C5316FA01EB8F01800549B0E /* Frameworks */,
 				C5316FA11EB8F01800549B0E /* Resources */,
+				31694AC29F1824E29BC2BD79 /* [CP] Embed Pods Frameworks */,
+				BFE2605F3F85206F526082E2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5316FBD1EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewaUITests" */;
 			buildPhases = (
+				C2BEC61AAE6555B84D153CA6 /* [CP] Check Pods Manifest.lock */,
 				C5316FAA1EB8F01800549B0E /* Sources */,
 				C5316FAB1EB8F01800549B0E /* Frameworks */,
 				C5316FAC1EB8F01800549B0E /* Resources */,
+				EAA7FF761A60FF0F542E62A6 /* [CP] Embed Pods Frameworks */,
+				177B026D36FCD43A33CB9AD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +306,150 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		177B026D36FCD43A33CB9AD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hali-ya-hewaUITests/Pods-hali-ya-hewaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EB9CB1937961B7236138001 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hali-ya-hewa/Pods-hali-ya-hewa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31694AC29F1824E29BC2BD79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hali-ya-hewaTests/Pods-hali-ya-hewaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39EDA6FA01C46AB694B6AAC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8416749010E65818F320A08F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A7360D983E6DB010D3F7B2B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hali-ya-hewa/Pods-hali-ya-hewa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFE2605F3F85206F526082E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hali-ya-hewaTests/Pods-hali-ya-hewaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2BEC61AAE6555B84D153CA6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA7FF761A60FF0F542E62A6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hali-ya-hewaUITests/Pods-hali-ya-hewaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5316F881EB8F01800549B0E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5316F921EB8F01800549B0E /* ViewController.swift in Sources */,
+				C5316F921EB8F01800549B0E /* WeatherVC.swift in Sources */,
 				C5316F981EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld in Sources */,
 				C5316F901EB8F01800549B0E /* AppDelegate.swift in Sources */,
 			);
@@ -416,6 +603,7 @@
 		};
 		C5316FB81EB8F01800549B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E4CDD56BDFD7CE755FEE497 /* Pods-hali-ya-hewa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "hali-ya-hewa/Info.plist";
@@ -428,6 +616,7 @@
 		};
 		C5316FB91EB8F01800549B0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049B4158C78BC918519F81CB /* Pods-hali-ya-hewa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "hali-ya-hewa/Info.plist";
@@ -440,6 +629,7 @@
 		};
 		C5316FBB1EB8F01800549B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04635BEB16934F675159ADB7 /* Pods-hali-ya-hewaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +644,7 @@
 		};
 		C5316FBC1EB8F01800549B0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901266E5BA6528BF6FC53F08 /* Pods-hali-ya-hewaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +659,7 @@
 		};
 		C5316FBE1EB8F01800549B0E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82C417954E81264B663ECCEE /* Pods-hali-ya-hewaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "hali-ya-hewaUITests/Info.plist";
@@ -481,6 +673,7 @@
 		};
 		C5316FBF1EB8F01800549B0E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6202B358E56F723A6C5A5A5D /* Pods-hali-ya-hewaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "hali-ya-hewaUITests/Info.plist";
@@ -511,6 +704,7 @@
 				C5316FB91EB8F01800549B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5316FBA1EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewaTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +713,7 @@
 				C5316FBC1EB8F01800549B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C5316FBD1EB8F01800549B0E /* Build configuration list for PBXNativeTarget "hali-ya-hewaUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +722,7 @@
 				C5316FBF1EB8F01800549B0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
