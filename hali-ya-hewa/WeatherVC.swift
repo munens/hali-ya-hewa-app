@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Alamofire
 
 class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
@@ -19,6 +20,9 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     // make a class of CurrentWeather
     var currentWeather: CurrentWeather!
+    // make a class of Forecast
+    var forecast: Forecast!
+    var forecasts = [Forecast]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,11 +30,13 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         tableView.delegate = self
         tableView.dataSource = self
         
-        print(CURRENT_WEATHER_URL)
+        //print(CURRENT_WEATHER_URL)
         currentWeather = CurrentWeather()
         currentWeather.downloadWeatherDetails {
             // Setup UI to download data:
-            self.updateMainUI()
+            self.downloadForecastData {
+                self.updateMainUI()
+            }
         }
     }
     
@@ -40,6 +46,25 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     */
+    
+    func downloadForecastData(completed: @escaping DownloadComplete){
+        // downloading forecast wether data for table View.
+        let forecastURL = URL(string: FORECAST_URL)!
+        Alamofire.request(forecastURL, method: .get).responseJSON { response in
+            let result = response.result
+            
+            if let dict = result.value as? Dictionary<String, AnyObject> {
+                if let list = dict["list"] as? [Dictionary<String, AnyObject>] {
+                    for obj in list {
+                        let forecast = Forecast(weatherDict: obj)
+                        self.forecasts.append(forecast)
+                        print(obj)
+                    }
+                }
+            }
+            completed()
+        }
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "weatherCell", for: indexPath)
@@ -56,14 +81,12 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func updateMainUI() {
-        print(currentWeather)
         dateLabel.text = currentWeather.date
-        currentTempLabel.text = "\(currentWeather.currentTemp)"
+        currentTempLabel.text = "\(currentWeather.currentTemp)°C"
         currentWeatherTypeLabel.text = currentWeather.weatherType
         locationLabel.text = currentWeather.cityName
         currentWeatherImageView.image = UIImage(named: currentWeather.weatherType)
     }
     
-
 }
 

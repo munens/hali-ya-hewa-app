@@ -43,10 +43,8 @@ class CurrentWeather {
         let dateFormatter = DateFormatter()
         dateFormatter.dateStyle = .long
         dateFormatter.timeStyle = .none
-        
         let currentDate = dateFormatter.string(from: Date())
         self._date = "Today, \(currentDate)"
-        
         return _date
     }
     
@@ -62,7 +60,6 @@ class CurrentWeather {
                 //get the name value from the dictinary we recieve and give it the value of _cityName:
                 if let name = dict["name"] as? String {
                     self._cityName = name.capitalized
-                    print(self._cityName)
                 }
                 
                 // get the weather values that are of type dictionary. Take the 'main' value and set it as the value of _weatherType:
@@ -71,9 +68,6 @@ class CurrentWeather {
                     if let main = weather[0]["main"] as? String {
                         self._weatherType = main.capitalized
                     }
-                    
-                    print(self._weatherType)
-                    
                 }
                 
                 // get the current temperature values of type dictionary. Get the current temperature in Kelvin and set the value of it as _currentTemperature:
@@ -81,12 +75,9 @@ class CurrentWeather {
                 if let main = dict["main"] as? Dictionary<String, AnyObject> {
                     
                     if let currentTemperature = main["temp"] as? Double {
-                        self._currentTemp = currentTemperature - 273.15
-                        print(self._currentTemp)
-                    }
-                    
+                        self._currentTemp = (currentTemperature - 273.15).rounded()
+                    }   
                 }
-                
             }
             // need to tell it when to complete:
             completed()

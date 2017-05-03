@@ -12,6 +12,7 @@
 		427952C70A0B86DC848EB253 /* Pods_hali_ya_hewaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB324C045A3943ABCC24EA27 /* Pods_hali_ya_hewaTests.framework */; };
 		C5132E8C1EB95CC10024FC2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5132E8B1EB95CC10024FC2F /* Constants.swift */; };
 		C5132E8F1EB95EDE0024FC2F /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5132E8E1EB95EDE0024FC2F /* CurrentWeather.swift */; };
+		C5132E911EBA49110024FC2F /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5132E901EBA49110024FC2F /* Forecast.swift */; };
 		C5316F901EB8F01800549B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F8F1EB8F01800549B0E /* AppDelegate.swift */; };
 		C5316F921EB8F01800549B0E /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F911EB8F01800549B0E /* WeatherVC.swift */; };
 		C5316F951EB8F01800549B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5316F931EB8F01800549B0E /* Main.storyboard */; };
@@ -49,6 +50,7 @@
 		BEA323256616566E4BC7ED62 /* Pods_hali_ya_hewa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hali_ya_hewa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5132E8B1EB95CC10024FC2F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C5132E8E1EB95EDE0024FC2F /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		C5132E901EBA49110024FC2F /* Forecast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 		C5316F8C1EB8F01800549B0E /* hali-ya-hewa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hali-ya-hewa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5316F8F1EB8F01800549B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5316F911EB8F01800549B0E /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				C5132E8E1EB95EDE0024FC2F /* CurrentWeather.swift */,
+				C5132E901EBA49110024FC2F /* Forecast.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -467,6 +470,7 @@
 				C5132E8F1EB95EDE0024FC2F /* CurrentWeather.swift in Sources */,
 				C5132E8C1EB95CC10024FC2F /* Constants.swift in Sources */,
 				C5316F981EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld in Sources */,
+				C5132E911EBA49110024FC2F /* Forecast.swift in Sources */,
 				C5316F901EB8F01800549B0E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
