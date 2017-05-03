@@ -58,11 +58,11 @@ class Forecast {
             }
         }
         
-        if let weather = weatherDict["waether"] as? [Dictionary<String, AnyObject>] {
+        if let weather = weatherDict["weather"] as? [Dictionary<String, AnyObject>] {
             
             if let main = weather[0]["main"] as? String {
                 self._weatherType = main
-                print(main)
+                print(self._weatherType)
             }
             
             if let date = weatherDict["dt"] as? Double {
