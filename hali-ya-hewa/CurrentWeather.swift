@@ -50,7 +50,7 @@ class CurrentWeather {
         return _date
     }
     
-    func downloadWeatherDetails(completed: DownloadComplete){
+    func downloadWeatherDetails(completed: @escaping DownloadComplete){
         //Alamofire download:
         let currentWeatherURL = URL(string: CURRENT_WEATHER_URL)
         Alamofire.request(currentWeatherURL!, method: .get).responseJSON { response in
@@ -78,9 +78,9 @@ class CurrentWeather {
                 
                 // get the current temperature values of type dictionary. Get the current temperature in Kelvin and set the value of it as _currentTemperature:
                 
-                if let main = dict["main"] as? [Dictionary<String, AnyObject>] {
+                if let main = dict["main"] as? Dictionary<String, AnyObject> {
                     
-                    if let currentTemperature = main[0]["temp"] as? Double {
+                    if let currentTemperature = main["temp"] as? Double {
                         self._currentTemp = currentTemperature - 273.15
                         print(self._currentTemp)
                     }
@@ -88,8 +88,9 @@ class CurrentWeather {
                 }
                 
             }
+            // need to tell it when to complete:
+            completed()
         }
-        // need to tell it when to complete:
-        completed()
+        
     }
 }
