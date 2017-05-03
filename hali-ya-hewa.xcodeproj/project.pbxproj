@@ -10,6 +10,8 @@
 		0123CBDDC74EA01E1309CD01 /* Pods_hali_ya_hewaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92D32122CB673152FBBF108 /* Pods_hali_ya_hewaUITests.framework */; };
 		2F4C2A5EA7EE7EDE38198BF4 /* Pods_hali_ya_hewa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEA323256616566E4BC7ED62 /* Pods_hali_ya_hewa.framework */; };
 		427952C70A0B86DC848EB253 /* Pods_hali_ya_hewaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB324C045A3943ABCC24EA27 /* Pods_hali_ya_hewaTests.framework */; };
+		C5132E8C1EB95CC10024FC2F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5132E8B1EB95CC10024FC2F /* Constants.swift */; };
+		C5132E8F1EB95EDE0024FC2F /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5132E8E1EB95EDE0024FC2F /* CurrentWeather.swift */; };
 		C5316F901EB8F01800549B0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F8F1EB8F01800549B0E /* AppDelegate.swift */; };
 		C5316F921EB8F01800549B0E /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5316F911EB8F01800549B0E /* WeatherVC.swift */; };
 		C5316F951EB8F01800549B0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5316F931EB8F01800549B0E /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		82C417954E81264B663ECCEE /* Pods-hali-ya-hewaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hali-ya-hewaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hali-ya-hewaUITests/Pods-hali-ya-hewaUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		901266E5BA6528BF6FC53F08 /* Pods-hali-ya-hewaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hali-ya-hewaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hali-ya-hewaTests/Pods-hali-ya-hewaTests.release.xcconfig"; sourceTree = "<group>"; };
 		BEA323256616566E4BC7ED62 /* Pods_hali_ya_hewa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hali_ya_hewa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5132E8B1EB95CC10024FC2F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C5132E8E1EB95EDE0024FC2F /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		C5316F8C1EB8F01800549B0E /* hali-ya-hewa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hali-ya-hewa.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5316F8F1EB8F01800549B0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5316F911EB8F01800549B0E /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
@@ -114,6 +118,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C5132E8D1EB95EBB0024FC2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C5132E8E1EB95EDE0024FC2F /* CurrentWeather.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		C5316F831EB8F01800549B0E = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +151,7 @@
 		C5316F8E1EB8F01800549B0E /* hali-ya-hewa */ = {
 			isa = PBXGroup;
 			children = (
+				C5132E8D1EB95EBB0024FC2F /* Model */,
 				C5316F8F1EB8F01800549B0E /* AppDelegate.swift */,
 				C5316F911EB8F01800549B0E /* WeatherVC.swift */,
 				C5316F931EB8F01800549B0E /* Main.storyboard */,
@@ -146,6 +159,7 @@
 				C5316F9B1EB8F01800549B0E /* LaunchScreen.storyboard */,
 				C5316F9E1EB8F01800549B0E /* Info.plist */,
 				C5316F961EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld */,
+				C5132E8B1EB95CC10024FC2F /* Constants.swift */,
 			);
 			path = "hali-ya-hewa";
 			sourceTree = "<group>";
@@ -450,6 +464,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5316F921EB8F01800549B0E /* WeatherVC.swift in Sources */,
+				C5132E8F1EB95EDE0024FC2F /* CurrentWeather.swift in Sources */,
+				C5132E8C1EB95CC10024FC2F /* Constants.swift in Sources */,
 				C5316F981EB8F01800549B0E /* hali_ya_hewa.xcdatamodeld in Sources */,
 				C5316F901EB8F01800549B0E /* AppDelegate.swift in Sources */,
 			);

@@ -72,7 +72,6 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.31764705882352939" green="0.64313725490196072" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="BeR-3P-7Vh"/>
                                     <constraint firstAttribute="height" constant="300" id="Mmv-aJ-1du"/>
                                     <constraint firstAttribute="trailing" secondItem="c4r-87-D2z" secondAttribute="trailing" constant="10" id="Xre-DS-e9c"/>
                                     <constraint firstAttribute="bottom" secondItem="c4r-87-D2z" secondAttribute="bottom" id="nGV-mR-oHh"/>
@@ -136,9 +135,6 @@
                                                                     </subviews>
                                                                 </stackView>
                                                             </subviews>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="47" id="TJG-TP-1f2"/>
-                                                            </constraints>
                                                         </stackView>
                                                     </subviews>
                                                 </stackView>
