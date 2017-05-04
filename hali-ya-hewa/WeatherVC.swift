@@ -7,9 +7,10 @@
 //
 
 import UIKit
+import CoreLocation
 import Alamofire
 
-class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource, CLLocationManagerDelegate {
 
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var currentTempLabel: UILabel!
@@ -17,6 +18,9 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var currentWeatherImageView: UIImageView!
     @IBOutlet weak var currentWeatherTypeLabel: UILabel!
     @IBOutlet weak var tableView: UITableView!
+    
+    let locationManager = CLLocationManager()
+    var currentLocation: CLLocation!
     
     // make a class of CurrentWeather
     var currentWeather: CurrentWeather!
@@ -27,17 +31,23 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        locationManager.delegate = self
+        
+        // define how well we want it to pick the location:
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        
+        // get location data when the app is in use (requestWhenInUseAuthorization) vs all the time (requestLocation)
+        locationManager.requestWhenInUseAuthorization()
+        
+        //check for location changes:
+        locationManager.startMonitoringSignificantLocationChanges()
+        
         tableView.delegate = self
         tableView.dataSource = self
         
         //print(CURRENT_WEATHER_URL)
         currentWeather = CurrentWeather()
-        currentWeather.downloadWeatherDetails {
-            // Setup UI to download data:
-            self.downloadForecastData {
-                self.updateMainUI()
-            }
-        }
+        
     }
     
     /*
@@ -46,6 +56,11 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         // Dispose of any resources that can be recreated.
     }
     */
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        locationAuthStatus()
+    }
     
     func downloadForecastData(completed: @escaping DownloadComplete){
         // downloading forecast wether data for table View.
@@ -91,6 +106,28 @@ class WeatherVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
         currentWeatherTypeLabel.text = currentWeather.weatherType
         locationLabel.text = currentWeather.cityName
         currentWeatherImageView.image = UIImage(named: currentWeather.weatherType)
+    }
+    
+    // get authorization about whether we can use location services:
+    func locationAuthStatus() {
+        if CLLocationManager.authorizationStatus() == .authorizedWhenInUse {
+            // if status is agreed then get location:
+            currentLocation = locationManager.location
+            Location.sharedInstance.Latitude = currentLocation.coordinate.latitude
+            Location.sharedInstance.Longitude = currentLocation.coordinate.longitude
+            
+            // upon reception of the latlon details, use them to download rest of the weather information:
+            currentWeather.downloadWeatherDetails {
+                // Setup UI to download data:
+                self.downloadForecastData {
+                    self.updateMainUI()
+                }
+            }
+        } else {
+            locationManager.requestWhenInUseAuthorization()
+            // if status is not agreed:
+            locationAuthStatus()
+        }
     }
     
 }

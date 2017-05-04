@@ -40,5 +40,7 @@
 		<key>NSAllowsArbitraryLoads</key>
 		<true/>
 	</dict>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Tunataka ruhusa yako, kujua uko pande gani?</string>
 </dict>
 </plist>

@@ -19,6 +19,6 @@ let APP_ID = "&appid="
 // to tell us that the download is complete:
 typealias DownloadComplete = () -> ()
 
-let CURRENT_WEATHER_URL = "\(BASE_URL)\(LATITUDE)-0.2921\(LONGITUDE)36.8219\(APP_ID)\(API_KEY)"
+let CURRENT_WEATHER_URL = "\(BASE_URL)\(LATITUDE)\(Location.sharedInstance.Latitude!)\(LONGITUDE)\(Location.sharedInstance.Longitude!)\(APP_ID)\(API_KEY)"
 
-let FORECAST_URL = "\(BASE_FORECAST_URL)\(LATITUDE)-0.2921\(LONGITUDE)36.8219\(CNT)\(APP_ID)\(API_KEY)"
+let FORECAST_URL = "\(BASE_FORECAST_URL)\(LATITUDE)\(Location.sharedInstance.Latitude!)\(LONGITUDE)\(Location.sharedInstance.Longitude!)\(CNT)\(APP_ID)\(API_KEY)"
